@@ -23,7 +23,7 @@ document.getElementById("two").addEventListener("click", function() {
     
 });
 document.getElementById("one").addEventListener("click", function() {
-    document.querySelector("#text").textContent="I Love You Yashvi";
+    document.querySelector("#text").textContent="I Love You";
     document.querySelector("#first-photo").src="friends-chandler-monica.gif"
     document.querySelector("#one").style.display="none";
     document.querySelector("#two").style.display="none";
@@ -31,5 +31,7 @@ document.getElementById("one").addEventListener("click", function() {
     document.querySelectorAll(".grid").forEach(a => {
         a.style.display = "grid";
     });
+    var audio = new Audio('song.mp3');
+    audio.play();   
 
 });
