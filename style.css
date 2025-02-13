@@ -1,0 +1,37 @@
+html{
+    background-color: #F7CFD8;
+}
+.flex{
+    display:flex;
+    justify-content: center;
+
+    }
+
+.Question>*{
+
+padding-top:50px;
+}
+#first-photo{
+    height: 50vw;
+}
+.Btn{
+    height:max-content;
+    height: max-content;
+
+    margin: 5%;
+    margin-right: 2.5%;
+    padding: 2%;
+}
+.grid{
+    
+    grid-template-columns: 1fr 1fr;
+    display:none;
+}
+img{
+    height: 50vw;
+    margin: 10px;
+}
+.gtext{
+    display: none;
+    justify-content: center;
+}
