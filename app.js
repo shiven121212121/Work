@@ -33,5 +33,5 @@ document.getElementById("one").addEventListener("click", function() {
     });
     var audio = new Audio('song.mp3');
     audio.play();   
-
+    console.log("Done");
 });
